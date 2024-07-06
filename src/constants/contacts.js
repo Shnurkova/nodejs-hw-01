@@ -1,9 +1,7 @@
-const path = require('node:path');
+import path from 'node:path';
 
-const PATH_DB = path.join(__dirname, '../db/db.json');
+const PATH_DB = path.join('src/db', 'db.json');
 
-module.exports = {
-    PATH_DB,
-};
+export { PATH_DB };
 
-console.log(PATH_DB);
+// console.log(PATH_DB);
