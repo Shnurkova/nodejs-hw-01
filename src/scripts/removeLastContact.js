@@ -1,6 +1,6 @@
+import * as fs from 'node:fs/promises';
 import { PATH_DB } from '../constants/contacts.js';
 import { getAllContacts } from './getAllContacts.js';
-import * as fs from 'node:fs/promises';
 
 export const removeLastContact = async () => {
   try {
